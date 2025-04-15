@@ -2,12 +2,6 @@
 int main(){
   std::cout<<"\n Let's Start!!!\nTic - Tac - Toe\nX|O|X|\nO|X|O|\nO|X|O|\n";
   char arr[3][3] = {{' ',' ',' '},{' ',' ',' '},{' ',' ',' '}};
-  // for(int i = 0; i < 3;i++){
-  //   for(int j = 0;j < 3;j++){
-  //     std::cout<<arr[i][j]<<"|";
-  //   }
-  //   std::cout<<"\n";
-  // }
   std::cout<<"Know these positions to Play the Game!!!\n";
   std::cout<<"\nR1 | C1 | C2 | C3 |\nR2 | C1 | C2 | C3 |\nR3 | C1 | C2 | C3 |\n";
   for(int i = 0;i < 9;i++){
